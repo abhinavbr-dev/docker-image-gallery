@@ -49,19 +49,6 @@ Docker Volume Storage
 
 ---
 
-## Screenshots
-
-### Main Gallery UI
-(Add screenshot here)
-
-### Image Upload
-(Add screenshot here)
-
-### Image Zoom Modal
-(Add screenshot here)
-
----
-
 ## Installation
 
 ### Clone Repository
