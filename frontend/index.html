@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Docker Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>Docker Image Gallery</h1>
+
+        <p class="subtitle">
+            Upload and manage images using Dockerized services
+        </p>
+
+        <div class="upload-box">
+
+            <input type="file" id="imageInput">
+
+            <button id="uploadBtn">
+                Upload Image
+            </button>
+
+        </div>
+
+        <p id="result"></p>
+
+        <div id="gallery"></div>
+
+    </div>
+
+    <div id="imageModal" class="modal">
+
+        <span id="closeModal">&times;</span>
+    
+        <img id="modalImage">
+    
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
